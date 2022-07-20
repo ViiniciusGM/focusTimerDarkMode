@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-card: hsla(240, 9%, 89%, 1);
+  --bg-card-hover: hsl(194, 97%, 31%);
+  --bg: hsl(0, 0%, 100%);
+  --font-color: hsl(240, 6%, 21%);
+  --btn-fill: hsl(0, 0%, 0%);
+
+  font-size: 62.5%;
+}
+
+.dark-mode{
+  --bg: hsl(0, 0%, 0%);
+  --bg-card:hsla(240, 6%, 17%, 1);
+
+  --bg-card-hover:hsla(195, 74%, 15%, 1);
+
+  --font-color: hsl(0, 0%, 100%);
+  --btn-fill: hsl(0, 0%, 100%);
+}
+
+body{
+  background-color: var(--bg);
+}
+
+.page{
+  background-image: var(--bg);
+
+  width: 82.1rem;
+  height: 33.6rem;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  margin: 6rem;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main span{
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 12.6rem;
+  font-weight: 500;
+  color: var(--font-color);
+
+  margin-bottom: 1.7rem;
+}
+
+main .button {
+  display: flex;
+  gap: 4rem;
+
+  justify-content: center;
+
+  gap: 3.2rem;
+}
+
+svg, .card {
+  cursor: pointer;
+}
+
+.sons {
+  width: 30.8rem;
+  display: grid;
+  gap: 3.2rem;
+  grid-template-areas: "colA colB" "colC colD";
+}
+
+.card {
+  background-color: var(--bg-card);
+
+  border-radius: 2.4rem;
+  padding-top: 2.4rem;
+  
+  width: 13.8rem;
+  height: 15.2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3.2rem;
+}
+
+.card:hover, svg path{
+  background-color: var(--bg-card-hover);
+  fill: var(--btn-fill);
+}
+
+.cardjs{
+  background-color: var(--bg-card-hover);
+  fill: white;
+}
+
+.hide {
+  display: none;
+}
+
+
+.tree-bg{
+  background-image: url(https://i.pinimg.com/originals/1b/45/63/1b456377a9dce67a7dc3630260aa7572.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  --font-color: hsl(0, 0%, 100%);
+
+}
+
+.rain-bg{
+  background-image: url(https://cutewallpaper.org/25/anime-desktop-wallpaper-gifs/26-sad-anime-wallpaper-gif-orochi-wallpaper.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  --font-color: hsl(0, 0%, 100%);
+
+}
+
+.coffe-bg{
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/022/521/258/original/bogdan-mb0sco-coffee-shop-animationfullhd.gif?1575731432);
+  background-repeat: no-repeat;
+  background-size: cover;
+  --font-color: hsl(0, 0%, 100%);
+
+}
+
+.fire-bg {
+  background-image: url(https://i.gifer.com/BSJK.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  --font-color: hsl(0, 0%, 100%);
+
+}
+
+span{
+  color: white;
+}
+
+input[type=range]{
+  -webkit-appearance: none;
+
+  position: relative;
+  bottom: 2.4rem;
+  margin-top: 3rem;
+  
+  width: 9rem;
+  border-radius: 9999px;  
+  background: var(--btn-fill);
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+  border-radius: 999rem;
+  height: 5px;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 9999px;
+
+  background: var(--btn-fill);
+
+  margin-top: -.75rem;
+
+  cursor: pointer;
+}
