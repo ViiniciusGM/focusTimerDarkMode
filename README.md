@@ -1,4 +1,4 @@
-<h1> Desafio Cronometro Dark Mode!
+<h1> Desafio Cronometro Dark Mode! https://viiniciusgm.github.io/stage5-desafio02/
   
 ##
 
@@ -8,7 +8,7 @@
 ![image](https://user-images.githubusercontent.com/92201792/179899790-c5760271-1d2d-4ffa-b43e-299a7bb2b0ca.png)
 
 
-Desafio 2 do Stage 5 da Rockeseat https://viiniciusgm.github.io/stage5-desafio02/ 💜🚀
+Desafio 2 do Stage 5 da Rockeseat 💜🚀
 
 ##
 <h1>
