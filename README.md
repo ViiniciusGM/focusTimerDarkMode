@@ -29,5 +29,5 @@ Desafio 2 do Stage 5 da Rockeseat 💜🚀
   <li>Dark Mode
   <li>Função CallBack
   <li>ES6 Modules
-  <li>Audios
+  <li>Áudios
 <ul>
