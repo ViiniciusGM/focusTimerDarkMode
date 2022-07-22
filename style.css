@@ -25,6 +25,9 @@
 }
 
 body{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
   background-color: var(--bg);
 }
 
@@ -33,14 +36,6 @@ body{
 
   width: 82.1rem;
   height: 33.6rem;
-
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 0;
-  margin: auto;
-
 }
 
 header {
