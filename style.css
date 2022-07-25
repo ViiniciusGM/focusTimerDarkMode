@@ -50,6 +50,8 @@ main{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 0 2rem;
 }
 
 main span{
@@ -180,4 +182,13 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: -.75rem;
 
   cursor: pointer;
+}
+
+@media (max-width: 830px){
+  main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 4rem  ;
+  } 
 }
